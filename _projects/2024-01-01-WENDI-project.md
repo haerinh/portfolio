@@ -3,10 +3,10 @@ title: "WENDI"
 subtitle: "CS304 Final Project"
 date: 2024-01-01 00:00:00
 description: The Wellesley Evaluation Network for Dorm Information (WENDI) is a web tool designed to streamline the housing selection journey. WENDI facilitates effortless navigation through campus housing options, enhanced by genuine peer reviews and data inputs from fellow students. This tool allows users to report and share insights about the rooms they and their peers have lived in, offering a rich source of real-world data and experiences.
-featured_image: "/images/projects/wellesleylogo.png"
+featured_image: "/images/projects/wendi/wellesleylogo.png"
 ---
 
-![](/images/projects/wellesleylogo.png)
+![](/images/projects/wendi/wellesleylogo.png)
 
 ---
 
@@ -70,8 +70,13 @@ _**A Comprehensive Exploration of Key Endpoints**_
 Explore WENDI's features through these snapshots capturing the essence of the housing selection journey. From insightful peer reviews to user-friendly interfaces, these images showcase the various endpoints that make WENDI a powerful tool for navigating campus housing.
 
 <div class="gallery" data-columns="1">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
+	<img src="/images/projects/wendi/wendi1.png">
+	<img src="/images/projects/wendi/wendi2.png">
+	<img src="/images/projects/wendi/wendi3.png">
+	<img src="/images/projects/wendi/wendi4.png">
+  <img src="/images/projects/wendi/wendi5.png">
+  <img src="/images/projects/wendi/wendi6.png">
+  <img src="/images/projects/wendi/wendi7.png">
 </div>
 
 ---
@@ -86,4 +91,4 @@ Take a virtual stroll through the Wellesley Evaluation Network for Dorm Informat
 
 <iframe src="https://player.vimeo.com/video/900056296?h=7c27fd7379" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-<a href="https://jekyllthemes.io/theme/duet-portfolio-jekyll-theme" class="button button--large">View Projects</a>
+<a href="https://haerinh.github.io/portfolio/" class="button button--large">View Projects</a>
