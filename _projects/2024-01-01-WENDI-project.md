@@ -6,7 +6,7 @@ description: The Wellesley Evaluation Network for Dorm Information (WENDI) is a 
 featured_image: "/images/projects/wendi/wellesleylogo.png"
 ---
 
-![](/images/projects/wendi/wellesleylogo.png)
+![]({{ site.baseurl }}/images/projects/wendi/wellesleylogo.png)
 
 ---
 
@@ -70,13 +70,13 @@ _**A Comprehensive Exploration of Key Endpoints**_
 Explore WENDI's features through these snapshots capturing the essence of the housing selection journey. From insightful peer reviews to user-friendly interfaces, these images showcase the various endpoints that make WENDI a powerful tool for navigating campus housing.
 
 <div class="gallery" data-columns="1">
-	<img src="/images/projects/wendi/wendi1.png">
-	<img src="/images/projects/wendi/wendi2.png">
-	<img src="/images/projects/wendi/wendi3.png">
-	<img src="/images/projects/wendi/wendi4.png">
-  <img src="/images/projects/wendi/wendi5.png">
-  <img src="/images/projects/wendi/wendi6.png">
-  <img src="/images/projects/wendi/wendi7.png">
+	<img src="{{ site.baseurl }}/images/projects/wendi/wendi1.png">
+	<img src="{{ site.baseurl }}/images/projects/wendi/wendi2.png">
+	<img src="{{ site.baseurl }}/images/projects/wendi/wendi3.png">
+	<img src="{{ site.baseurl }}/images/projects/wendi/wendi4.png">
+	<img src="{{ site.baseurl }}/images/projects/wendi/wendi5.png">
+	<img src="{{ site.baseurl }}/images/projects/wendi/wendi6.png">
+	<img src="{{ site.baseurl }}/images/projects/wendi/wendi7.png">
 </div>
 
 ---
