@@ -2,15 +2,15 @@
 layout: default
 title: Portfolio
 subtitle: Portfolio Subtitle
-featured_image: /images/social.jpg
+featured_image: /images/social.png
 ---
 
 <section class="intro">
 
     <div class="wrap">
 
-    	<h1>A reflection of my journey, skills, and projects.</h1>
-    	<p>Interactive resume</p>
+    	<h1>Hi there! Thanks for exploring my portfolio ✨ </h1>
+    	<p>I am a passionate and versatile entry-level full-stack developer.</p>
 
     </div>
 

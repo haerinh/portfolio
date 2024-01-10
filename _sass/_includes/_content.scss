@@ -296,14 +296,15 @@
 .video-wrap {
 	position: relative;
 	max-width: 90%;
-	margin: 20px auto;
+	margin: 0;
+  padding: 0;
 
 	@include mq(tabletp) {
-		margin: 30px auto;
+		margin: 0 auto;
 	}
 
 	@include mq(laptop) {
-		margin: 40px auto;
+		margin: 0 auto;
 	}
 
 	&:first-child {
@@ -319,14 +320,16 @@
   position: relative;
   width: 100%;
   height: 0;
-  margin: 0 auto; // Added this line to center the .video container
+  margin: 0;
+  padding: 0;
 
   iframe {
     position: absolute;
     top: 0;
-    left: 50%; // Adjusted left property to 50%
-    transform: translateX(-50%); // Center the iframe horizontally
+    left: 50%;
+    transform: translateX(-50%) translateY(-15%); /* Center horizontally and move up by 15% */
     width: 80%;
     height: 100%;
-  }
+	}
+
 }

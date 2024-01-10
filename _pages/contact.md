@@ -1,10 +1,12 @@
 ---
-title: Contact
-subtitle: Duet comes with a built-in contact form, that's free and easy to set up.
-description: Duet is a beautiful Jekyll portfolio theme.
-featured_image: /images/demo/demo-landscape.jpg
+title: Contact 📧
+subtitle: Reach Out and Connect
+description: A reflection of my journey, skills, and projects.
+featured_image: /images/contact.jpg
 ---
 
-{% include contact-form.html %}
+### Reach Out and Connect
 
-We've made a contact form that you can use with [Formspree](https://formspree.io/create/jekyllthemes) to handle up to 50 submissions per month for free. You could also easily switch out the end-point to use another contact form service.
+Explore potential collaborations and opportunities by reaching out through the contact form. Share your thoughts, inquiries, or opportunities, and let's start a conversation. Your message, name, and email are much appreciated as I actively seek new challenges and career prospects. I'm excited about the possibility of working together and look forward to hearing from you.
+
+{% include contact-form.html %}
