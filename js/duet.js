@@ -77,7 +77,7 @@
         thisTarget.indexOf("tel:") >= 0
       ) {
         // Use the given link
-        window.location = thisTarget;
+        window.location.href = thisTarget;
       }
 
       // If link is handled by some JS action – e.g. fluidbox

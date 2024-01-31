@@ -5,8 +5,6 @@ description: A reflection of my journey, skills, and projects.
 featured_image: /images/contact.jpg
 ---
 
-### Reach Out and Connect
+#### LinkedIn: <a href="https://www.linkedin.com/in/hae-rin-1008-hong/">Hae Rin Hong</a>
 
-Explore potential collaborations and opportunities by reaching out through the contact form. Share your thoughts, inquiries, or opportunities, and let's start a conversation. Your message, name, and email are much appreciated as I actively seek new challenges and career prospects. I'm excited about the possibility of working together and look forward to hearing from you.
-
-{% include contact-form.html %}
+#### email: hhong6@wellesley.edu

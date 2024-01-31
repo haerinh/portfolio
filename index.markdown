@@ -9,7 +9,7 @@ featured_image: /images/social.png
 
     <div class="wrap">
 
-    	<h1>Hi there! Thanks for exploring my portfolio ✨ </h1>
+    	<h1>Hi there! Thanks for exploring my portfolio✨ </h1>
     	<p>I am a passionate and versatile entry-level full-stack developer.</p>
 
     </div>
