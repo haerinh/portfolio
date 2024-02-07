@@ -7,7 +7,7 @@ description: >
 featured_image: "/images/projects/quizzes/funfact.png"
 ---
 
-![]({{ site.baseurl }}/images/projects/quizzes/funfact1.png)
+![](/images/projects/quizzes/funfact1.png)
 
 ### Project Overview
 
@@ -39,5 +39,3 @@ featured_image: "/images/projects/quizzes/funfact.png"
 - **Semantic Tags:** Utilizes semantic HTML tags like `h1` and `div` for better code structure and accessibility.
 
 This project showcases a blend of dynamic JavaScript functionality, jQuery event handling, and CSS styling, resulting in an interactive Fun Fact Quiz.
-
-<a href="https://haerinh.github.io/portfolio/" class="button button--large" >View Projects</a>

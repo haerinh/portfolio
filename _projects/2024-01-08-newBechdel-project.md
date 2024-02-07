@@ -7,7 +7,7 @@ description: >
 featured_image: "/images/projects/newBechdel/newBechdel.png"
 ---
 
-![]({{ site.baseurl }}/images/projects/newBechdel/newBechdel1.png)
+![](/images/projects/newBechdel/newBechdel1.png)
 
 ### Project Overview
 
@@ -63,5 +63,3 @@ Surprisingly, our results revealed numerous ties among movies. The movie with th
 ---
 
 **Team Members:** Alejandra Robayo(ar111@wellesley.edu), Nile Rankin-Watson(nr100@wellesley.edu), Hae Rin Hong(hhong6@wellesley.edu)
-
-<a href="https://haerinh.github.io/portfolio/" class="button button--large" >View Projects</a>

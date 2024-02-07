@@ -6,7 +6,7 @@ description: The Wellesley Evaluation Network for Dorm Information (WENDI) is a 
 featured_image: "/images/projects/wendi/wellesleylogo.png"
 ---
 
-![]({{ site.baseurl }}/images/projects/wendi/wellesleylogo.png)
+![](/images/projects/wendi/wellesleylogo.png)
 
 ---
 
@@ -94,5 +94,3 @@ Take a virtual stroll through the Wellesley Evaluation Network for Dorm Informat
 ---
 
 **Team Members:** Annabel Yao(yy102@wellesley.edu), Emma Lim (el110@wellesley.edu), Hae Rin Hong (hhong6@wellesley.edu), Veronica Lin (yl102@wellesley.edu)
-
-<a href="https://haerinh.github.io/portfolio/" class="button button--large">View Projects</a>

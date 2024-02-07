@@ -7,7 +7,7 @@ description: >
 featured_image: "/images/projects/CRUD/CRUD.png"
 ---
 
-![]({{ site.baseurl }}/images/projects/CRUD/CRUD1.png)
+![](/images/projects/CRUD/CRUD1.png)
 
 ---
 
@@ -51,5 +51,3 @@ The project's objective is to craft a web application adept at managing multiple
 This video presentation provides an in-depth exploration of the CRUD (Create, Read, Update, Delete) application, offering a firsthand look at its features and functionality. Witness how the CRUD app manages movie data and allows users to efficiently insert, update, and delete records. Gain insights into the implementation of essential web development concepts such as template inheritance, form data handling, and dynamic page updates. This video serves as a testament to the developer's skills in creating a practical and well-structured application. Experience the CRUD system in action and discover its potential for effective data management.
 
 <iframe src="https://player.vimeo.com/video/901395752?h=2ed8c7e68e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<a href="https://haerinh.github.io/portfolio/" class="button button--large">View Projects</a>

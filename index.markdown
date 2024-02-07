@@ -9,8 +9,8 @@ featured_image: /images/social.png
 
     <div class="wrap">
 
-    	<h1>Hi there! Thanks for exploring my portfolio✨ </h1>
-    	<p>I am a passionate and versatile entry-level full-stack developer.</p>
+    	<h1>Media Arts and Sciences Portfolio✨ </h1>
+    	<p>Navigating the Frontiers of Media and Technology</p>
 
     </div>
 

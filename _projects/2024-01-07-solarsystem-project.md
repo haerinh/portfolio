@@ -7,7 +7,7 @@ description: >
 featured_image: "/images/projects/solarsystem/solarsystem.png"
 ---
 
-![]({{ site.baseurl }}/images/projects/solarsystem/solarsystem.png)
+![](/images/projects/solarsystem/solarsystem.png)
 
 ## Solar System
 
@@ -35,5 +35,3 @@ The project utilizes Three.js, a JavaScript library for 3D graphics, to render a
 Witness the captivating orbits of planets, interactive features, and dynamic particle animations, providing a sneak peek into the immersive experience crafted in the project.
 
 <iframe src="https://player.vimeo.com/video/901086909?h=e8f3c60aea" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<a href="https://haerinh.github.io/portfolio/" class="button button--large" >View Projects</a>

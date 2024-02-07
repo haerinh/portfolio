@@ -7,7 +7,7 @@ description: >
 featured_image: "/images/projects/jelly/jelly.png"
 ---
 
-![]({{ site.baseurl }}/images/projects/jelly/jelly.png)
+![](/images/projects/jelly/jelly.png)
 
 ## Jelly Blobs
 
@@ -50,5 +50,3 @@ In addition to the core entities, the project involved the implementation of a m
 Experience the charm of "Jelly Blobs" in this concise video demo. Navigate the light purple blob with mouse movements, strategically consuming smaller blobs and evading larger ones. This snippet provides a quick, engaging preview of the game's interactive gameplay.
 
 <iframe src="https://player.vimeo.com/video/901552050?h=7a6fc33988" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<a href="https://haerinh.github.io/portfolio/" class="button button--large" >View Projects</a>

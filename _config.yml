@@ -1,7 +1,7 @@
 site: Hae Rin Hong
 
 url: https://haerinh.github.io/
-baseurl: "/portfolio"
+baseurl: "/"
 
 collections:
   pages:

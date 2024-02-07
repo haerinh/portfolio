@@ -7,7 +7,7 @@ description: >
 featured_image: "/images/projects/plushie/plushie.jpg"
 ---
 
-![]({{ site.baseurl }}/images/projects/plushie/plushie.jpg)
+![](/images/projects/plushie/plushie.jpg)
 
 ## Plushie Adventure
 
@@ -62,5 +62,3 @@ This is a sequential carousel, designed to guide you through the chronological p
 </div>
 
 **Team Members:** Marilyn Fang(mf102@wellesley.edu), Kate Salembier(ks110@wellesley.edu), Hae Rin Hong (hhong6@wellesley.edu), Annabel Obas (ao101@wellesley.edu)
-
-<a href="https://haerinh.github.io/portfolio/" class="button button--large" >View Projects</a>
