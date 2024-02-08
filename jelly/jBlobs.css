@@ -1,0 +1,84 @@
+.circle {
+  border-radius: 50%;
+  position: absolute;
+  /* all the following will be overridden in real blobs */
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  top: 0px;
+  left: 0px;
+}
+
+#player {
+  width: 50px;
+  height: 50px;
+  top: 100px;
+  left: 100px;
+  z-index: 999;
+}
+
+
+#winOrLose {
+  position: absolute;
+  top: 42%;
+  left: 42%;
+  z-index: 9999;
+  font-size: 40px;
+  font-family: 'Asap', sans-serif;
+}
+
+
+body {
+  overflow: hidden;
+  margin: 0;
+}
+
+#intro {
+  width: 90%;
+  margin: auto;
+  font-size: 20px;
+  z-index: 9999;
+  font-family: 'Asap', sans-serif; 
+  overflow: auto;          
+  text-align: center;  /* Center align the text */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  /* Center the div using translate */
+}
+
+h1 {
+  font-size: 2em;  /* Adjust font size */
+  margin: 0;  /* Remove default margin */
+  font-family: 'Asap', sans-serif; 
+}
+
+.button {
+  margin: 10px auto;
+  padding: 15px;
+  background-color: #c7b4ff;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+/* Add a bit of spacing between elements */
+p {
+  margin-bottom: 10px;
+}
+
+/* Style the instructions list */
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;  /* Center the text within the ul */
+}
+
+/* Style list items */
+li {
+  margin-left: 1em;
+  text-align: center; /* Align text to the left within each list item */
+}
+
+em {
+  font-size: 1em
+}

@@ -1,0 +1,51 @@
+<!-- Author: Hae Rin Hong and Yannis Zhu -->
+
+{% extends "base.html" %}
+<!-- Extending the 'base.html' template -->
+
+{% block main_content %}
+<!-- Defining the 'main_content' block, which will be overridden in the child template -->
+
+<h1>Update Movie</h1>
+
+<p>Use "None" or "null" to set a field to null. Only Title, Release Year, and Director can be null.</p>
+
+<form method="post" action="{{ url_for('update', tt=movie.tt) }}">
+    <!-- Form for updating a movie with method POST and action set to the update route for the specific movie TT -->
+    
+    <table>
+        <tr>
+            <td><label for="movie-tt">Movie id</label></td>
+            <td><input id="movie-tt" name="movie-tt" value="{{ movie.tt }}"></td>
+            <!-- Input field for the movie ID with the current value pre-filled -->
+        </tr>
+        <tr>
+            <td><label for="movie-title">Title</label></td>
+            <td><input id="movie-title" name="movie-title" value="{{ movie.title }}"></td>
+        </tr>
+        <tr>
+            <td><label for="movie-release">Release year</label></td>
+            <td><input id="movie-release" name="movie-release" value="{{ movie.release }}"></td>
+        </tr>
+        <tr>
+            <td><label for="movie-addedby">Added by</label></td>
+            <td><input id="movie-addedby" name="movie-addedby" value="{{ movie.addedby }}"></td>
+        </tr>
+        <tr>
+            <td><label for="movie-director">Director ID</label></td>
+            <td><input id="movie-director" name="movie-director" value="{{ movie.director }}"></td>
+        </tr>
+        <tr>
+            <td><label>Director</label></td>
+            <td>None Specified</td>
+        </tr>
+    </table>
+    
+    <input type="submit" name="submit" value="update">
+
+    <input type="submit" name="submit" value="delete">
+
+</form>
+
+{% endblock %}
+<!-- End of the 'main_content' block -->

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=PriorityQueueNode
+comment1.params=obj\ prio
+comment1.target=PriorityQueueNode(java.lang.Object,\ int)
+comment2.params=
+comment2.target=java.lang.Object\ getElement()
+comment3.params=
+comment3.target=int\ getPriority()
+comment4.params=
+comment4.target=int\ getOrder()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=obj
+comment6.target=int\ compareTo(PriorityQueueNode)
+numComments=7

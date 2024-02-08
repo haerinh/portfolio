@@ -1,0 +1,75 @@
+/* Reset some default margin and padding for better consistency */
+body, h1, p, main {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif; /* Set a common font family */
+}
+
+main {
+  text-align: center; /* Center the content in the main element */
+}
+
+h1 {
+  background-color: #ece8fe; /* Lavender background color */
+  padding: 20px;
+  color: #333; /* Dark text color */
+}
+
+.container {
+  display: flex;
+  justify-content: space-around; /* Add space between the two outer divs */
+  background-color: #fcf4e9; /* Ivory container background color */
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px; /* Add rounded corners to the container */
+}
+
+#outer1,
+#outer2 {
+  flex: 1;
+  background-color: #feece8; /* Cream background color */
+  border: 2px solid #f8ddd7; /* Light blue border color */
+  border-radius: 8px; /* Add rounded corners to the outer divs */
+}
+
+.inner {
+  background-color: #fce9f1; /* Soft pink background color for inner content */
+  text-align: left;
+  margin: 15px;
+  border: 2px solid #faced9; /* Light blue border color */
+  padding: 15px;
+  border-radius: 8px; /* Add rounded corners to the inner divs */
+}
+
+button {
+  background-color: #e8fafe; /* Light blue button color */
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Add rounded corners to the button */
+}
+
+.correct {
+  background-color: rgba(188,246,222, 0.5); /* Light green background for correct answers */
+  border: 2px solid #65d475; /* Dark green border color */
+}
+
+.incorrect {
+  background-color: rgba(243,166,239, 0.5); /* Light red background for incorrect answers */
+  border: 2px solid #d54b4b; /* Dark red border color */
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+      flex-direction: column; /* Stack divs for smaller screens */
+  }
+
+  #outer1,
+  #outer2 {
+      margin-top: 20px; /* Add space between stacked divs */
+  }
+}

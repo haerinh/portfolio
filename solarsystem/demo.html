@@ -1,0 +1,254 @@
+<!-- @author: Hae Rin Hong -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Solar System</title>
+<style>      
+    body { margin : 0 ;}
+    canvas {width: 100% ; height: 100%}
+</style>
+
+<script src="https://cs.wellesley.edu/~cs307/threejs/libs/three-r95.all.js">
+"https://cs.wellesley.edu/~cs307/threejs/libs/three-r80.min.js"
+</script>
+<script src="https://cs.wellesley.edu/~cs307/threejs/libs/OrbitControls-r95.js">
+"https://cs.wellesley.edu/~cs307/threejs/libs/OrbitControls.js"
+</script>
+<script src="https://cs.wellesley.edu/~cs307/threejs/libs/tw-sp21.js">
+"https://cs.wellesley.edu/~cs307/threejs/libs/tw-fa18.js"
+</script>
+<script src="https://cs.wellesley.edu/~cs307/threejs/libs/dat.gui-r95.js">
+"https://cs.wellesley.edu/~cs307/threejs/libs/dat.gui.min.js"
+</script>
+<script src="Planet.js"></script>
+
+</head>
+<body>
+
+<script>
+// create scene
+
+var scene = new THREE.Scene();
+
+var renderer = new THREE.WebGLRenderer();
+
+TW.mainInit(renderer,scene);
+
+// camera
+var camera = new THREE.PerspectiveCamera(100, window.innerWidth / window.innerHeight, 1, 1000);
+
+//set the size and color of the renderer
+renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.setClearColor(new THREE.Color("#0F193B"));
+
+//add the renderer to the html document body
+var canvasElt = renderer.domElement;
+document.body.appendChild(canvasElt);
+
+camera.position.z = 75;
+
+var controls = new THREE.OrbitControls(camera, canvasElt);
+
+var sun, mercury, venus, earth, mars, jupiter, saturn;
+TW.loadTextures(["sun.jpeg","mercury.jpeg","venus.jpeg","earth.jpeg", "mars.jpg","jupiter.jpg","saturn.jpg","ring.png"],
+                function(textures){
+                    sun = displaySun(textures[0]);
+                    mercury = displayMercury(textures[1]);
+                    venus = displayVenus(textures[2]);
+                    earth = displayEarth(textures[3]);
+                    mars = displayMars(textures[4]);
+                    jupiter = displayJupiter(textures[5]);
+                    saturn = displaySaturn(textures[6],textures[7]);
+                    render();
+                }) 
+
+// add light to the scene
+var light = new THREE.PointLight(0xFFFFFF, 2, 300);
+scene.add(light);
+
+function displaySun(texture) {
+    // create and load image of the sun
+    var sungeom = new THREE.SphereGeometry(8,50,50);
+    var sunMat = new THREE.MeshBasicMaterial({map:texture});
+    var sunMesh = new THREE.Mesh(sungeom, sunMat);
+    var solarSystem = new THREE.Group();
+    solarSystem.add(sunMesh);
+    scene.add(sunMesh);
+
+    TW.render();    // render the scene
+
+    return sunMesh;
+}
+
+function displayMercury(texture){
+    // create and load image of mercury
+    var mergeom = new THREE.SphereGeometry(2,50,50);
+    var mercurymat = new THREE.MeshStandardMaterial({map:texture});
+    var mercuryMesh = new THREE.Mesh(mergeom, mercurymat);
+    var mercurySystem = new THREE.Group();
+    mercuryMesh.position.x += 16;
+    mercurySystem.add(mercuryMesh);
+    scene.add(mercurySystem);
+
+    TW.render();
+
+    return mercurySystem;
+}
+
+function displayVenus(texture){
+    // create and load image of venus
+    var vengeom = new THREE.SphereGeometry(3,50,50);
+    var venusmat = new THREE.MeshStandardMaterial({map:texture});
+    var venusMesh = new THREE.Mesh(vengeom, venusmat);
+    var venusSystem = new THREE.Group();
+    venusMesh.position.x += 32;
+    venusSystem.add(venusMesh);
+    scene.add(venusSystem);
+
+    TW.render();
+
+    return venusSystem;
+}
+
+function displayEarth(texture){
+    // create and load image of earth
+    var earthgeom = new THREE.SphereGeometry(4,50,50);
+    var earthmat = new THREE.MeshStandardMaterial({map:texture});
+    var earthMesh = new THREE.Mesh(earthgeom, earthmat);
+    var earthSystem = new THREE.Group();
+    earthMesh.position.x += 48;
+    earthSystem.add(earthMesh);
+    scene.add(earthSystem);
+
+    TW.render();
+
+    return earthSystem;
+}
+
+function displayMars(texture){
+    // create and load image of mars
+    var marsgeom = new THREE.SphereGeometry(3,50,50);
+    var marsmat = new THREE.MeshStandardMaterial({map:texture});
+    var marsMesh = new THREE.Mesh(marsgeom, marsmat);
+    var marsSystem = new THREE.Group();  
+    marsMesh.position.x += 64;
+    marsSystem.add(marsMesh);
+    scene.add(marsSystem);
+
+    TW.render();
+
+    return marsSystem;
+}
+
+function displayJupiter(texture){
+    // create and load image of jupiter
+    var jupgeom = new THREE.SphereGeometry(6,50,50);
+    var jupitermat = new THREE.MeshStandardMaterial({map:texture});
+    var jupiterMesh = new THREE.Mesh(jupgeom, jupitermat);
+    var jupiterSystem = new THREE.Group();  
+    jupiterMesh.position.x += 83;
+    jupiterSystem.add(jupiterMesh);
+    scene.add(jupiterSystem);
+
+    TW.render();
+
+    return jupiterSystem;
+}
+
+function displaySaturn(texture1, texture2){
+    // create and load image of saturn
+    var satgeom = new THREE.SphereGeometry(5,50,50);
+    var saturnmat = new THREE.MeshStandardMaterial({map: texture1});
+    var saturnMesh = new THREE.Mesh(satgeom, saturnmat);
+    var saturnSystem = new THREE.Group();  
+    saturnMesh.position.x += 110;
+    saturnSystem.add(saturnMesh);
+
+    // create and load image of the ring of the planet saturn
+    var satRingGeom = new THREE.RingGeometry(7,11,35);
+    var satRingmat = new THREE.MeshStandardMaterial({map: texture2,
+                                                    side: THREE.DoubleSide});
+    var satRingMesh = new THREE.Mesh(satRingGeom, satRingmat);
+    satRingMesh.position.x += 110;
+    satRingMesh.rotation.x = -0.3 * Math.PI;
+    saturnSystem.add(satRingMesh);
+    scene.add(saturnSystem);
+
+    TW.render();
+
+    return saturnSystem;
+}
+
+// declare variable
+var particles=[]; 
+
+function addParticles(){
+
+    // move from z position of -1000 to z position 1000 (add a random particle at each position) 
+    for ( var z= -1000; z < 1000; z+=20 ) {
+
+        // creating a particle 
+        var particle = new THREE.SphereGeometry(1, 64, 64)
+        var mat = new THREE.MeshBasicMaterial( {color: 0xffffff} );
+        var particleMat = new THREE.Mesh(particle, mat)
+
+        // give the particle random x and y positions between -500 and 500
+        particleMat.position.x = Math.random() * 1000 - 500;
+        particleMat.position.y = Math.random() * 1000 - 500;
+
+        // set the z position (distance of camera)
+        particleMat.position.z = z;
+
+        // add the particle to the scene
+        scene.add(particleMat);
+
+        // push particle to the particles array 
+        particles.push(particleMat); 
+    }
+}
+
+function animateParticles() { 
+            
+    // loop through each particle
+    for(var i=0; i<particles.length; i++) {
+            
+        // make the particles to come closer  
+        particles[i].position.z +=  i/100;
+            
+        // when particles come closer, move it to the back
+        if(particles[i].position.z>1000) particles[i].position.z-=2000; 
+        
+    }
+
+}
+
+// make the earth to rotate the sun once in one minute  
+var earthYear = 2 * Math.PI * (1/60) * (1/60);
+
+function animate(){
+    sun.rotateY(0.001); 
+    mercury.rotateY(earthYear*2.5);
+    venus.rotateY(earthYear * 1.5);
+    earth.rotateY(earthYear);
+    mars.rotateY(earthYear * 0.8);
+    jupiter.rotateY(earthYear * .6);
+    saturn.rotateY(earthYear * 0.5);
+}
+
+// render the scene
+function render() {
+    animate();
+    animateParticles();
+    requestAnimationFrame(render);
+    renderer.render(scene, camera);
+}
+
+addParticles();
+render();
+
+
+</script>
+</body>
+</html>
+

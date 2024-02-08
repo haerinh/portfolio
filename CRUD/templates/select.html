@@ -1,0 +1,32 @@
+<!-- Author: Hae Rin Hong and Yannis Zhu -->
+
+{% extends "base.html" %}
+<!-- Extending the 'base.html' template -->
+
+{% block main_content %}
+<!-- Defining the 'main_content' block, which will be overridden in the child template -->
+
+<h1>Select Movie</h1>
+
+
+<form method="POST" action="">
+    <!-- Form for selecting a movie with method POST and an empty action (current URL) -->
+    
+    <label for="menu-tt">Movies without release dates or directors:</label>
+
+    <select id="menu-tt" name="menu-tt">
+        <option value="none">Choose One</option>
+
+        {% for movie in incomplete_movies %}
+            <!-- Loop through incomplete_movies to populate dropdown options -->
+            <option value="{{ movie.tt }}">{{ movie.title }}</option>
+            <!-- Option for each incomplete movie with TT as value and title as display -->
+        {% endfor %}
+    </select>
+
+    <input type="submit" name="submit-btn" value="Choose">
+
+</form>
+
+{% endblock %}
+<!-- End of the 'main_content' block -->
