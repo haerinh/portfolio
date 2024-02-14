@@ -61,6 +61,14 @@ WENDI facilitates effortless navigation through campus housing options, enhanced
 
 ---
 
+### GitHub Repository
+
+Explore the codebase of WENDI on GitHub:
+
+<a href="https://github.com/yanziv/WENDI">GitHub Repository</a>
+
+---
+
 ### Visual Showcase
 
 #### WENDI Platform Highlights
