@@ -1,0 +1,113 @@
+/* Author: Hae Rin Hong */
+
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Color Palette */
+:root {
+  --dark-charcoal: #363232;
+  --gunmetal: #565656;
+  --onix: #6b6b6b;
+  --light-pink: #eea1e3;
+  --soft-pink: #f4b5eb;
+  --dark-purple: #514283;
+  --light-purple:#cac5ed;
+}
+
+body {
+  background-color: var(--soft-pink);
+  color: var(--dark-charcoal);
+  font-family: "Bungee", sans-serif;}
+
+h1 {
+  padding-top: 20px;
+  padding-left: 30px;
+  font-size: 40px;
+  color: var(--dark-purple);
+}
+
+button {
+  font-size: 20px;
+  padding: 1ex;
+  border: 2px solid var(--dark-charcoal);
+  border-radius: 10px;
+  background-color: var(--light-pink);
+  color: var(--dark-charcoal);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: var(--soft-pink);
+  transform: scale(1.05);
+}
+
+#controls, #board {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+}
+
+#directions {
+  position: relative;
+  height: 300px;
+  width: 400px;
+  font-size: 20px;
+  background-color: var(--gunmetal);
+  color: var(--soft-pink);
+  margin: 1em;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#directions button {
+  box-sizing: border-box;
+  position: absolute;
+  width: 150px;
+  height: 40px;
+}
+
+#up    { top: 10px; left: 125px; }
+#down  { bottom: 10px; left: 125px; }
+#left  { top: 130px; left: 10px; }
+#right { top: 130px; right: 10px; }
+
+#board {
+  height: 600px;
+  width: 600px;
+  position: relative;
+  background-color: var(--onix);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+#board img {
+  position: absolute;
+  border-radius: 10px; /* Rounded corners for tiles */
+}
+
+#a, #b, #c, #d, #e, #f, #g, #h {
+  height: 200px;
+  width: 200px;
+}
+
+#a { left: 000px; top: 0px; }
+#b { left: 200px; top: 0px; }
+#c { left: 400px; top: 0px; }
+
+#d { left: 000px; top: 200px; }
+#e { left: 200px; top: 200px; }
+#f { left: 400px; top: 200px; }
+
+#g { left: 000px; top: 400px; }
+#h { left: 200px; top: 400px; }
+
+#scrambleButton {
+  margin: 1em 8em;
+  background-color: var(--dark-purple);
+}
+

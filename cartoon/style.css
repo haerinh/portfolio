@@ -1,0 +1,207 @@
+/* Author: Hae Rin Hong */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+.chakra-petch-light {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.chakra-petch-regular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chakra-petch-medium {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.chakra-petch-semibold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.chakra-petch-bold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.chakra-petch-light-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.chakra-petch-regular-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.chakra-petch-medium-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.chakra-petch-semibold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.chakra-petch-bold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+body {
+  font-family: "Chakra Petch", sans-serif;
+  background-image: url('heart.jpeg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: repeat; 
+  color: #333;
+}
+
+
+main {
+  width: 58%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center boxes horizontally */
+  align-items: start; /* Align boxes to the start of the container vertically */
+  gap: 20px; /* Space between boxes */
+  min-height: 500px;
+}
+
+.box {
+  flex: 0 1 300px; /* Boxes can grow and shrink but start at 300px wide */
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 2px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+/* Specific styles for each box */
+
+#box1 {
+  order: 1;
+  flex: 0 1 100%; /* Full width */
+  height: 500px; /* Specific height for main box */
+}
+
+
+#box1 {
+  top: 100px;
+  display: flex;
+  flex-direction: column; /* Adjust the direction of flex items */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#box1 .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure the image is behind the text */
+}
+
+#box1 .text-content {
+  z-index: 1; 
+  color: white; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Improve text readability */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#characterName{
+  margin: 10px 0; 
+  color: white;
+  max-width: 100%;
+  font-size: 55px; 
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6); 
+}
+
+#date{
+  margin: 0; 
+  color: white;
+  max-width: 100%;
+  font-size: 30px; 
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6); 
+}
+
+
+#characterFact{
+  margin: 10px 0; 
+  color: white;
+  max-width: 100%;
+  font-size: 40px; 
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6); 
+}
+
+#box2, #box3 {
+  order: 2; /* Make sure these come after box1 regardless of HTML order */
+  flex: 0 1 300px; /* Restrict width to 300px */
+  overflow: hidden;  /* Ensures no part of the content overflows the box */
+  z-index: 1; 
+}
+
+#box2 {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 30px;
+  top: 30px;
+}
+
+#box2 img, #box3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+#box3 {
+  position: absolute;
+  width: 350px;
+  height: 300px;
+  right: 30px;
+  bottom: 30px;
+}
+
+button {
+  margin-top: 20px; /* Space above the button */
+  background-color: #ccbbfa;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: 1.5px solid black;  
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffb6d3;
+}
