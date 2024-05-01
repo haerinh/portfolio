@@ -3,7 +3,7 @@
 
 - 👨‍💻 All of my projects are available at [https://haerinh.github.io/](https://haerinh.github.io/)
 
-- 📫 How to reach me **hong.haerinni@gmail.com**
+- 📫 How to reach me **hhong6@wellesley.edu**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
