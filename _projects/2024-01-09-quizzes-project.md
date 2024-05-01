@@ -11,11 +11,7 @@ featured_image: "/images/projects/quizzes/funfact.png"
 
 ### Project Overview
 
-- **Quiz Format:** The application begins by defining a set of multiple-choice questions in a JSON format, mirroring the structure commonly found in online quiz platforms. Each question, represented as a JavaScript object literal, includes the question itself (Q), four answer options (A-D), and the correct answer (ANS).
-- **Responsive Design:** The interface adapts to various screen sizes, ensuring a consistent and user-friendly layout. For narrower screens, questions stack vertically, while wider screens display questions side by side. The application leverages Bootstrap's grid system for responsive and visually appealing layouts.
-- **Answering Questions:** Users interact with the application by selecting their answers from the provided radio button sets. The interface is designed to be intuitive and straightforward, mimicking the experience of taking quizzes on familiar platforms like Sakai.
-- **Self-Grading:** After answering each question, users can initiate the grading process. The application employs an event delegation mechanism for efficient handling of the grading functionality, allowing users to assess their answers without keeping track of the overall score.
-- **Dynamic DOM Manipulation:** The core functionality involves dynamic manipulation of the Document Object Model (DOM). Drawing inspiration from the "Dynamic DOM" reading, the application organizes and presents quiz questions dynamically, enhancing the overall user experience.
+"Fun Facts" is an interactive quiz application that allows users to test their knowledge across various topics through a clean and intuitive web interface. Designed for educational purposes, the application leverages JavaScript and jQuery for dynamic content manipulation, enabling users to engage with multiple-choice questions conveniently grouped by topic. Each quiz question comes with a set of radio buttons for options, and a grading button to immediately provide feedback on the user's selection. This project not only enhances learning through immediate assessment but also demonstrates effective use of modern web development techniques for real-time user interaction.
 
 ---
 
@@ -32,10 +28,5 @@ featured_image: "/images/projects/quizzes/funfact.png"
 - **Responsive Design:** Utilizes Flexbox and media queries to create a responsive and visually appealing design that adjusts to different screen sizes.
 - **Aesthetic Choices:** Incorporates pastel tones, rounded corners, and subtle gradients to enhance the overall visual appeal.
 - **Class-based Styling:** Uses CSS classes such as `.correct` and `.incorrect` to dynamically highlight correct and incorrect answers.
-
-#### HTML Structure
-
-- **Logical Layout:** Defines a clean HTML structure with a `main` element, heading, and two outer divs for organizing quiz questions.
-- **Semantic Tags:** Utilizes semantic HTML tags like `h1` and `div` for better code structure and accessibility.
 
 This project showcases a blend of dynamic JavaScript functionality, jQuery event handling, and CSS styling, resulting in an interactive Fun Fact Quiz.
