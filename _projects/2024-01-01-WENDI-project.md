@@ -1,7 +1,7 @@
 ---
 title: "WENDI"
 subtitle: "CS304 Final Project"
-date: 2024-01-06 00:00:00
+date: 2024-01-10 00:00:00
 description: The Wellesley Evaluation Network for Dorm Information (WENDI) is a web tool designed to streamline the housing selection journey. WENDI facilitates effortless navigation through campus housing options, enhanced by genuine peer reviews and data inputs from fellow students. This tool allows users to report and share insights about the rooms they and their peers have lived in, offering a rich source of real-world data and experiences.
 featured_image: "/images/projects/wendi/wellesleylogo.png"
 ---

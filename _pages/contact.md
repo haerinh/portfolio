@@ -7,4 +7,4 @@ featured_image: /images/contact.jpg
 
 **LinkedIn:** <a href="https://www.linkedin.com/in/haerin-hong/">Hae Rin Hong</a>
 
-**email:** hong.haerinni@gmail.com
+**email:** hhong6@wellsley.edu

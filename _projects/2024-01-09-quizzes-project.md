@@ -1,10 +1,10 @@
 ---
 title: "Fun Facts"
 subtitle: "CS204 Project"
-date: 2024-01-05 00:00:00
+date: 2024-01-01 00:00:00
 description: >
   "Fun Facts" is an application designed for formatting and answering multiple-choice quizzes, inspired by the familiar format of platforms like Sakai. This project focuses on generating a user-friendly interface with radio button sets for each quiz question, providing a seamless experience for answering questions and self-grading.
-featured_image: "/images/projects/quizzes/funfact.png"
+featured_image: "/images/projects/quizzes/funfact.jpg"
 ---
 
 ![](/images/projects/quizzes/funfact1.png)

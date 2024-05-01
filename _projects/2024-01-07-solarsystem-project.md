@@ -1,7 +1,7 @@
 ---
 title: "Solar System"
 subtitle: "CS307 Final Project"
-date: 2024-01-09 00:00:00
+date: 2024-01-07 00:00:00
 description: >
   In my CS307 Computer Graphics Final Project, I created an immersive solar system experience, featuring a dynamic display of planets and captivating particle animations. The project aimed to showcase key graphics concepts learned during the course, emphasizing hierarchical modeling, materials, lighting, user interaction, and animation.
 featured_image: "/images/projects/solarsystem/solarsystem.png"

@@ -1,7 +1,7 @@
 ---
 title: "Retro Cartoons"
 subtitle: "Interactive Cartoon Display"
-date: 2024-01-10 00:00:00
+date: 2024-01-09 00:00:00
 description: >
   The Retro Cartoons project provides an interactive way to explore classic animated characters through a daily feature system. Using JavaScript and web development techniques, this project allows users to discover fun facts about beloved cartoon characters on specific dates. It emphasizes dynamic content delivery, event handling,and learning about animation history!
 featured_image: "/images/projects/cartoon/TomandJerry.jpg"

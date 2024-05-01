@@ -64,6 +64,11 @@
   .owl-carousel .owl-dot {
     cursor: pointer;
     cursor: hand;
+    width: 50px;
+    height: 50px;
+    font-size: 30px; /* For icon size */
+    line-height: 50px; /* Center the content vertically */
+    background-size: contain; /* Adjust if using background-image */
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -90,6 +95,12 @@
     direction: rtl; }
   .owl-carousel.owl-rtl .owl-item {
     float: right; }
+
+/* Adjusting the font size if using icons */
+.owl-carousel .owl-nav .owl-prev i,
+.owl-carousel .owl-nav .owl-next i {
+    font-size: 30px; /* Larger font size for icons */
+}
 
 /* No Js */
 .no-js .owl-carousel {

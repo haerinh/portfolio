@@ -1,7 +1,7 @@
 ---
 title: "Kuromi Slider Game"
 subtitle: "CS204 Project"
-date: 2024-01-04 00:00:00
+date: 2024-01-02 00:00:00
 description: >
   The Kuromi Slider Game is a modern web-based sliding puzzle game designed as a project for CS204. This game challenges players to reassemble a scrambled image by sliding tiles into the correct position. It offers a playful and engaging way to enhance problem-solving and spatial reasoning skills.
 featured_image: "/images/projects/slider/kuromistars.jpg"

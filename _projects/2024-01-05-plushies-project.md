@@ -1,7 +1,7 @@
 ---
 title: "Plushie Adventure"
 subtitle: "ARTS313 Final Project"
-date: 2024-01-07 00:00:00
+date: 2024-01-08 00:00:00
 description: >
   'Plushie Adventure' is a collaborative storytelling project where each group member contributes by intricately shading and texturing modeled objects. The project unfolds through 10 vividly rendered scenes where plush characters engage in whimsical escapades, meticulously posed for visual dynamism. The cohesive set design, strategic lighting, and precise Maya files ensure a seamless fusion of creativity.
 featured_image: "/images/projects/plushie/plushie.jpg"
